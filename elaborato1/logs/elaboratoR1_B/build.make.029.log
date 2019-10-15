@@ -1,0 +1,26 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _elaboratoR1_B_generate_messages_check_deps_Message
+[  0%] Built target _elaboratoR1_B_generate_messages_check_deps_Service
+[35m[1mScanning dependencies of target instanode[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 13%] Built target elaboratoR1_B_generate_messages_nodejs
+[ 26%] [32mBuilding CXX object CMakeFiles/instanode.dir/instanode.cpp.o[0m
+[ 33%] Built target elaboratoR1_B_generate_messages_cpp
+[ 53%] Built target elaboratoR1_B_generate_messages_eus
+[ 80%] Built target elaboratoR1_B_generate_messages_py
+[ 93%] Built target elaboratoR1_B_generate_messages_lisp
+[ 93%] Built target elaboratoR1_B_generate_messages
+[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:33:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass ros::Publisher[m[K’ has no member named ‘[01m[Kpusblish[m[K’; did you mean ‘[01m[Kpublish[m[K’?
+         pub.[01;31m[Kpusblish[m[K(msg);
+             [01;31m[K^~~~~~~~[m[K
+             [32m[Kpublish[m[K
+CMakeFiles/instanode.dir/build.make:62: recipe for target 'CMakeFiles/instanode.dir/instanode.cpp.o' failed
+make[2]: *** [CMakeFiles/instanode.dir/instanode.cpp.o] Error 1
+CMakeFiles/Makefile2:1142: recipe for target 'CMakeFiles/instanode.dir/all' failed
+make[1]: *** [CMakeFiles/instanode.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

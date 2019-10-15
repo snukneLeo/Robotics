@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _elaboratoR1_generate_messages_check_deps_Num
+[  0%] Built target _elaboratoR1_generate_messages_check_deps_AddTwoInts
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 11%] Built target talker
+[ 35%] Built target elaboratoR1_generate_messages_py
+[ 47%] Built target listener
+[ 58%] Built target elaboratoR1_generate_messages_cpp
+[ 76%] Built target elaboratoR1_generate_messages_eus
+[ 88%] Built target elaboratoR1_generate_messages_nodejs
+[100%] Built target elaboratoR1_generate_messages_lisp
+[100%] Built target elaboratoR1_generate_messages

@@ -1,0 +1,6 @@
+make[2]: ***  Nessuna regola per generare l'obiettivo "CMakeFiles/elaboratoR1_talker.dir/build".  Arresto.
+make[2]: ***  Nessuna regola per generare l'obiettivo "CMakeFiles/elaboratoR1_listener.dir/build".  Arresto.
+make[1]: *** [CMakeFiles/elaboratoR1_listener.dir/all] Error 2
+make[1]: *** Attesa per i processi non terminati....
+make[1]: *** [CMakeFiles/elaboratoR1_talker.dir/all] Error 2
+make: *** [all] Error 2

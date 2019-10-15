@@ -1,0 +1,23 @@
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/elaboratoR1/CMakeLists.txt:138 (add_executable):
+  Cannot find source file:
+
+    src/talker.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/elaboratoR1/CMakeLists.txt:136 (add_executable):
+  Cannot find source file:
+
+    src/listener.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: elaboratoR1_talker
+CMake Error: Cannot determine link language for target "elaboratoR1_talker".
+CMake Error: CMake can not determine linker language for target: elaboratoR1_listener
+CMake Error: Cannot determine link language for target "elaboratoR1_listener".
+make: *** [cmake_check_build_system] Error 1

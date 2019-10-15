@@ -1,0 +1,33 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _elaboratoR1_B_generate_messages_check_deps_Message
+[  0%] Built target _elaboratoR1_B_generate_messages_check_deps_Service
+[35m[1mScanning dependencies of target instanode[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 26%] Built target elaboratoR1_B_generate_messages_cpp
+[ 26%] Built target elaboratoR1_B_generate_messages_nodejs
+[ 33%] [32mBuilding CXX object CMakeFiles/instanode.dir/instanode.cpp.o[0m
+[ 53%] Built target elaboratoR1_B_generate_messages_eus
+[ 66%] Built target elaboratoR1_B_generate_messages_lisp
+[ 93%] Built target elaboratoR1_B_generate_messages_py
+[ 93%] Built target elaboratoR1_B_generate_messages
+[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:22:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope
+         std::cout<<"Insert x: " <<[01;31m[Kendl[m[K;
+                                   [01;31m[K^~~~[m[K
+[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:22:35:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/c++/7/iostream:39:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:54[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:2[m[K:
+[01m[K/usr/include/c++/7/ostream:590:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::endl[m[K’
+     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+     [01;36m[K^~~~[m[K
+CMakeFiles/instanode.dir/build.make:62: recipe for target 'CMakeFiles/instanode.dir/instanode.cpp.o' failed
+make[2]: *** [CMakeFiles/instanode.dir/instanode.cpp.o] Error 1
+CMakeFiles/Makefile2:1142: recipe for target 'CMakeFiles/instanode.dir/all' failed
+make[1]: *** [CMakeFiles/instanode.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

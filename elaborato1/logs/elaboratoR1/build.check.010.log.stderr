@@ -1,0 +1,6 @@
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/elaboratoR1/CMakeLists.txt:136 (target_link_libraries):
+  Cannot specify link libraries for target "listener" which is not built by
+  this project.
+
+
+make: *** [cmake_check_build_system] Error 1

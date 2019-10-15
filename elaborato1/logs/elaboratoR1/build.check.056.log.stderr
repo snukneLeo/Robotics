@@ -1,0 +1,52 @@
+[33m[1mCMake Warning[0m at /home/leo/elaborato1/build/elaboratoR1/cmake/elaboratoR1-genmsg.cmake:3 (message):
+  Invoking generate_messages() without having added any message or service
+  file before.
+
+  You should either add add_message_files() and/or add_service_files() calls
+  or remove the invocation of generate_messages().
+[36mCall Stack (most recent call first):[0m
+  /opt/ros/melodic/share/genmsg/cmake/genmsg-extras.cmake:307 (include)
+  CMakeLists.txt:58 (generate_messages)
+
+
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/elaboratoR1/CMakeLists.txt:122 (add_executable):
+  Cannot find source file:
+
+    src/listener.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/elaboratoR1/CMakeLists.txt:126 (add_executable):
+  Cannot find source file:
+
+    src/talker.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Warning (dev) at CMakeLists.txt:124 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "elaboratoR1_generate_message_cpp" of target
+  "listener" does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeLists.txt:128 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "elaboratoR1_generate_message_cpp" of target "talker"
+  does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error: CMake can not determine linker language for target: listener
+CMake Error: Cannot determine link language for target "listener".
+CMake Error: CMake can not determine linker language for target: talker
+CMake Error: Cannot determine link language for target "talker".
+make: *** [cmake_check_build_system] Error 1
