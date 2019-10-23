@@ -1,4 +1,5 @@
 #!/bin/bash
-echo "dall'alba"
+echo "Calling roslaunch..."
 roslaunch elaboratoR1_B node.launch
-echo "al tramonto"
+echo "End roslaunch"
+

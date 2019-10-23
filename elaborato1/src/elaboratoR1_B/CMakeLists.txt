@@ -14,9 +14,10 @@ generate_messages(DEPENDENCIES std_msgs)
 ## Declare a catkin package
 catkin_package()
 
-## Build talker and listener
+## Build instanode
 include_directories(include ${catkin_INCLUDE_DIRS})
 
+#EXECUTABLE INSTANODE
 add_executable(instanode instanode.cpp)
 target_link_libraries(instanode ${catkin_LIBRARIES})
 add_dependencies(instanode instanode)
