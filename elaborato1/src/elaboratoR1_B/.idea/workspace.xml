@@ -3,13 +3,13 @@
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
-  <component name="CMakeSettings" AUTO_RELOAD="true">
+  <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="876fff85-6393-4a23-9e5d-848de709d22c" name="Default Changelist" comment="" />
+    <list default="true" id="40f2e8e2-f3b4-4ca6-ba48-aa6dc3e13971" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +19,9 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ProjectId" id="1SCLCo6dQSL7RpvB0SA3kDhqvME" />
+  <component name="ProjectId" id="1SHIS9vRolqJGJtewWlRV71Jw5s" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -38,15 +37,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="876fff85-6393-4a23-9e5d-848de709d22c" name="Default Changelist" comment="" />
-      <created>1571062505408</created>
+      <changelist id="40f2e8e2-f3b4-4ca6-ba48-aa6dc3e13971" name="Default Changelist" comment="" />
+      <created>1571214092257</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1571062505408</updated>
-      <workItem from="1571062507380" duration="3507000" />
-      <workItem from="1571130523355" duration="787000" />
-      <workItem from="1571144874397" duration="1869000" />
-      <workItem from="1571214664523" duration="223000" />
+      <updated>1571214092257</updated>
+      <workItem from="1571214096478" duration="73000" />
+      <workItem from="1571214636404" duration="248000" />
+      <workItem from="1571214964124" duration="245000" />
+      <workItem from="1571813807037" duration="1070000" />
+      <workItem from="1571815117644" duration="515000" />
     </task>
     <servers />
   </component>

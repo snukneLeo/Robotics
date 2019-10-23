@@ -1,7 +1,0 @@
-[01m[K/home/leo/elaborato1/src/elaboratoR1_B/instanode.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/g: File o directory non esistente
- #include [01;31m[K"std_msgs/g"[m[K
-          [01;31m[K^~~~~~~~~~~~[m[K
-compilation terminated.
-make[2]: *** [CMakeFiles/instanode.dir/instanode.cpp.o] Error 1
-make[1]: *** [CMakeFiles/instanode.dir/all] Error 2
-make: *** [all] Error 2

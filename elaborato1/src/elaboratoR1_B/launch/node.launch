@@ -1,0 +1,5 @@
+<launch>
+	<node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" output="screen" launch-prefix="gnome-terminal -x sh -c" />
+	<node name="instanode" pkg="elaboratoR1_B" type="instanode" output="screen" launch-prefix="gnome-terminal -x sh -c" />
+	<node name="turtlesim_teleop_key" pkg="turtlesim" type="turtle_teleop_key"	output="screen" launch-prefix="gnome-terminal -x sh -c" />
+</launch>

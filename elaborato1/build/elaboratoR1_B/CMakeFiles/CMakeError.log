@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_82628/fast"
-/usr/bin/make -f CMakeFiles/cmTC_82628.dir/build.make CMakeFiles/cmTC_82628.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_2082f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2082f.dir/build.make CMakeFiles/cmTC_2082f.dir/build
 make[1]: ingresso nella directory "/home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_82628.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_82628.dir/CheckSymbolExists.c.o   -c /home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_82628
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82628.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_82628.dir/CheckSymbolExists.c.o  -o cmTC_82628 
-CMakeFiles/cmTC_82628.dir/CheckSymbolExists.c.o: nella funzione "main":
+Building C object CMakeFiles/cmTC_2082f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2082f.dir/CheckSymbolExists.c.o   -c /home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2082f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2082f.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_2082f.dir/CheckSymbolExists.c.o  -o cmTC_2082f 
+CMakeFiles/cmTC_2082f.dir/CheckSymbolExists.c.o: nella funzione "main":
 CheckSymbolExists.c:(.text+0x1b): riferimento non definito a "pthread_create"
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_82628.dir/build.make:97: recipe for target 'cmTC_82628' failed
-make[1]: *** [cmTC_82628] Error 1
+CMakeFiles/cmTC_2082f.dir/build.make:97: recipe for target 'cmTC_2082f' failed
+make[1]: *** [cmTC_2082f] Error 1
 make[1]: uscita dalla directory "/home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp"
-Makefile:126: recipe for target 'cmTC_82628/fast' failed
-make: *** [cmTC_82628/fast] Error 2
+Makefile:126: recipe for target 'cmTC_2082f/fast' failed
+make: *** [cmTC_2082f/fast] Error 2
 
 File /home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e56b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e56b.dir/build.make CMakeFiles/cmTC_5e56b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_71f99/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71f99.dir/build.make CMakeFiles/cmTC_71f99.dir/build
 make[1]: ingresso nella directory "/home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp"
-Building C object CMakeFiles/cmTC_5e56b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_5e56b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_5e56b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e56b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_5e56b.dir/CheckFunctionExists.c.o  -o cmTC_5e56b -lpthreads 
+Building C object CMakeFiles/cmTC_71f99.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_71f99.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_71f99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71f99.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_71f99.dir/CheckFunctionExists.c.o  -o cmTC_71f99 -lpthreads 
 /usr/bin/ld: impossibile trovare -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_5e56b.dir/build.make:97: recipe for target 'cmTC_5e56b' failed
-make[1]: *** [cmTC_5e56b] Error 1
+CMakeFiles/cmTC_71f99.dir/build.make:97: recipe for target 'cmTC_71f99' failed
+make[1]: *** [cmTC_71f99] Error 1
 make[1]: uscita dalla directory "/home/leo/elaborato1/build/elaboratoR1_B/CMakeFiles/CMakeTmp"
-Makefile:126: recipe for target 'cmTC_5e56b/fast' failed
-make: *** [cmTC_5e56b/fast] Error 2
+Makefile:126: recipe for target 'cmTC_71f99/fast' failed
+make: *** [cmTC_71f99/fast] Error 2
 
 

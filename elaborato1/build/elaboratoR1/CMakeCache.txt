@@ -284,9 +284,6 @@ cpp_common_DIR:PATH=/opt/ros/melodic/share/cpp_common/cmake
 //Value Computed by CMake
 elaboratoR1_BINARY_DIR:STATIC=/home/leo/elaborato1/build/elaboratoR1
 
-//Dependencies for target
-elaboratoR1_LIB_DEPENDS:STATIC=
-
 //Value Computed by CMake
 elaboratoR1_SOURCE_DIR:STATIC=/home/leo/elaborato1/src/elaboratoR1
 
@@ -357,20 +354,8 @@ gtest_hide_internal_symbols:BOOL=OFF
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
-//Value Computed by CMake
-homework1_BINARY_DIR:STATIC=/home/leo/elaborato1/build/elaboratoR1
-
-//Value Computed by CMake
-homework1_SOURCE_DIR:STATIC=/home/leo/elaborato1/src/elaboratoR1
-
 //Path to a library.
 lib:FILEPATH=/opt/ros/melodic/lib/libxmlrpcpp.so
-
-//The directory containing a CMake configuration file for message_corporation.
-message_corporation_DIR:PATH=message_corporation_DIR-NOTFOUND
-
-//The directory containing a CMake configuration file for message_generation.
-message_generation_DIR:PATH=/opt/ros/melodic/share/message_generation/cmake
 
 //The directory containing a CMake configuration file for message_runtime.
 message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake

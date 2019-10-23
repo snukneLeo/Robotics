@@ -8,9 +8,6 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/leo/elaborato1/devel/.private/elaboratoR1_B:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/leo/elaborato1/build/elaboratoR1_B"
-export PYTHONPATH="/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/leo/elaborato1/devel/.private/elaboratoR1_B/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/leo/elaborato1/src/elaboratoR1_B:$ROS_PACKAGE_PATH"

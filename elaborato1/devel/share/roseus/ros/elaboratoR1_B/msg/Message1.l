@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/elaboratoR1_B/share/roseus/ros/elaboratoR1_B/msg/Message1.l
