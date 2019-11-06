@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib/pkgconfig/elaboratoR1_B.pc

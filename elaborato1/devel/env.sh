@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/catkin_tools_prebuild/env.sh

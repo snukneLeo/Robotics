@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib/python2.7/dist-packages/elaboratoR1_B/msg/__init__.py
