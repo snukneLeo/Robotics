@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/leo/elaborato1/devel/.private/panda_moveit_config/setup.sh

@@ -1,0 +1,12 @@
+universal_robot/ur_driver
+/home/leo/elaborato1/devel/.private/ur_driver/cmake.lock /home/leo/elaborato1/devel/./cmake.lock
+/home/leo/elaborato1/devel/.private/ur_driver/lib/pkgconfig/ur_driver.pc /home/leo/elaborato1/devel/lib/pkgconfig/ur_driver.pc
+/home/leo/elaborato1/devel/.private/ur_driver/lib/python2.7/dist-packages/ur_driver/__init__.py /home/leo/elaborato1/devel/lib/python2.7/dist-packages/ur_driver/__init__.py
+/home/leo/elaborato1/devel/.private/ur_driver/lib/python2.7/dist-packages/ur_driver/cfg/__init__.py /home/leo/elaborato1/devel/lib/python2.7/dist-packages/ur_driver/cfg/__init__.py
+/home/leo/elaborato1/devel/.private/ur_driver/lib/python2.7/dist-packages/ur_driver/cfg/URDriverConfig.py /home/leo/elaborato1/devel/lib/python2.7/dist-packages/ur_driver/cfg/URDriverConfig.py
+/home/leo/elaborato1/devel/.private/ur_driver/share/ur_driver/docs/URDriverConfig-usage.dox /home/leo/elaborato1/devel/share/ur_driver/docs/URDriverConfig-usage.dox
+/home/leo/elaborato1/devel/.private/ur_driver/share/ur_driver/docs/URDriverConfig.wikidoc /home/leo/elaborato1/devel/share/ur_driver/docs/URDriverConfig.wikidoc
+/home/leo/elaborato1/devel/.private/ur_driver/share/ur_driver/docs/URDriverConfig.dox /home/leo/elaborato1/devel/share/ur_driver/docs/URDriverConfig.dox
+/home/leo/elaborato1/devel/.private/ur_driver/share/ur_driver/cmake/ur_driverConfig.cmake /home/leo/elaborato1/devel/share/ur_driver/cmake/ur_driverConfig.cmake
+/home/leo/elaborato1/devel/.private/ur_driver/share/ur_driver/cmake/ur_driverConfig-version.cmake /home/leo/elaborato1/devel/share/ur_driver/cmake/ur_driverConfig-version.cmake
+/home/leo/elaborato1/devel/.private/ur_driver/include/ur_driver/URDriverConfig.h /home/leo/elaborato1/devel/include/ur_driver/URDriverConfig.h

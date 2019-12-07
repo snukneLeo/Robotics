@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/ur3_moveit_config/lib/pkgconfig/ur3_moveit_config.pc

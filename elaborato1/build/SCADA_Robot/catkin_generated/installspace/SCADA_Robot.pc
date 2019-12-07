@@ -1,0 +1,8 @@
+prefix=/home/leo/elaborato1/install
+
+Name: SCADA_Robot
+Description: Description of SCADA_Robot
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leo/elaborato1/install/lib 
+Requires: 

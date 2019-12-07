@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/SCADA_Robot/share/SCADA_Robot/cmake/SCADA_RobotConfig-version.cmake
