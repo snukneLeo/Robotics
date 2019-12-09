@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: SCADA_Robot
+    relative_path: urdf/scara_urdf_model.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/myfirst.srdf
+  CONFIG:
+    author_name: leo
+    author_email: leo.tes@gmail.com
+    generated_timestamp: 1575732065
