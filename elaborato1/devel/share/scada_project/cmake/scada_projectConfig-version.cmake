@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/scada_project/share/scada_project/cmake/scada_projectConfig-version.cmake

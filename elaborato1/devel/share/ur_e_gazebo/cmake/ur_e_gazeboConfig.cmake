@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/ur_e_gazebo/share/ur_e_gazebo/cmake/ur_e_gazeboConfig.cmake

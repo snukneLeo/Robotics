@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/scada_project/share/roseus/ros/scada_project/manifest.l

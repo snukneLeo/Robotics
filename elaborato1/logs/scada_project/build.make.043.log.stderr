@@ -1,0 +1,20 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const JointState&)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+     [01;31m[Kx[m[K = msg.position[0];
+     [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:14:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope
+     [01;31m[Ky[m[K = msg.position[1];
+     [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:14:5:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kyn[m[K’
+     [01;36m[Ky[m[K = msg.position[1];
+     [01;36m[K^[m[K
+     [32m[Kyn[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+     [01;31m[Kz[m[K = msg.position[2];
+     [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kangle_EndEffector[m[K’ was not declared in this scope
+     [01;31m[Kangle_EndEffector[m[K = msg.position[3];
+     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

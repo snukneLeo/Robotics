@@ -1,0 +1,10 @@
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:[m[K In function ‘[01m[Kdouble fk(double, double, double, double)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:10:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K.[m[K’ token
+     fkValues[0] = 0.3*cos(t1+t2) + 0.3*[01;31m[K.[m[Kcos(t1);
+                                        [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:14:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble*[m[K’ to ‘[01m[Kdouble[m[K’ in return
+     return [01;31m[KfkValues[m[K;
+            [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/publisher.dir/all] Error 2
+make: *** [all] Error 2

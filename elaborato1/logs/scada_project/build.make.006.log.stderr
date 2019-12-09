@@ -1,0 +1,7 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Kturtlesim/Velocity.h: File o directory non esistente
+ #include [01;31m[K<turtlesim/Velocity.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,5 +1,0 @@
-panda_moveit_config
-/home/leo/elaborato1/devel/.private/panda_moveit_config/cmake.lock /home/leo/elaborato1/devel/./cmake.lock
-/home/leo/elaborato1/devel/.private/panda_moveit_config/lib/pkgconfig/panda_moveit_config.pc /home/leo/elaborato1/devel/lib/pkgconfig/panda_moveit_config.pc
-/home/leo/elaborato1/devel/.private/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake /home/leo/elaborato1/devel/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake
-/home/leo/elaborato1/devel/.private/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake /home/leo/elaborato1/devel/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake

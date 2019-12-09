@@ -1,8 +1,0 @@
-prefix=/home/leo/elaborato1/devel/.private/franka_description
-
-Name: franka_description
-Description: Description of franka_description
-Version: 0.7.0
-Cflags: 
-Libs: -L/home/leo/elaborato1/devel/.private/franka_description/lib 
-Requires: xacro

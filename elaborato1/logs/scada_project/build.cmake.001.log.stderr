@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/leo/elaborato1/src/scada_project/CMakeLists.txt:22 (target_link_libraries):
+  Cannot specify link libraries for target "main" which is not built by this
+  project.
+
+

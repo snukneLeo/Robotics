@@ -1,0 +1,14 @@
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:8:8:[m[K [01;35m[Kwarning: [m[Kdecomposition declaration only available with -std=c++1z or -std=gnu++1z
+ double [01;35m[K[[m[K] fk(double t1, double t2, double t4, double d3)
+        [01;35m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:8:8:[m[K [01;31m[Kerror: [m[Kdecomposition declaration cannot be declared with type ‘[01m[Kdouble[m[K’
+ double [01;31m[K[][m[K fk(double t1, double t2, double t4, double d3)
+        [01;31m[K^~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:8:8:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:8:8:[m[K [01;31m[Kerror: [m[Kempty decomposition declaration
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:8:11:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kfk[m[K’
+ double [] [01;31m[Kfk[m[K(double t1, double t2, double t4, double d3)
+           [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/publisher.dir/all] Error 2
+make: *** [all] Error 2

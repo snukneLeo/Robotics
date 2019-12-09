@@ -10,7 +10,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="22fc65c7-b972-49e0-b18b-fe8aa9e5cd5f" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,20 +18,29 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/panda_moveit_config" />
+  </component>
   <component name="ProjectId" id="1SbjDXn33mjRIqKJpXdrDU5zdex" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
+  <component name="ServiceViewManager">
+    <option name="viewStates">
       <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
       </list>
     </option>
   </component>
@@ -44,10 +52,25 @@
       <option name="presentableId" value="Default" />
       <updated>1571839069473</updated>
       <workItem from="1571839070979" duration="1520000" />
+      <workItem from="1575880104341" duration="2514000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="449" y="145" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575881882469">
+      <screen x="66" y="25" width="1300" height="743" />
+    </state>
+    <state x="449" y="145" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/66.25.1300.743@66.25.1300.743" timestamp="1575881882469" />
+    <state x="499" y="154" width="424" height="483" key="FileChooserDialogImpl" timestamp="1575882327805">
+      <screen x="50" y="25" width="1316" height="743" />
+    </state>
+    <state x="499" y="154" width="424" height="483" key="FileChooserDialogImpl/50.25.1316.743@50.25.1316.743" timestamp="1575882327805" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575882603464">
+      <screen x="50" y="25" width="1316" height="743" />
+    </state>
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/50.25.1316.743@50.25.1316.743" timestamp="1575882603464" />
   </component>
 </project>

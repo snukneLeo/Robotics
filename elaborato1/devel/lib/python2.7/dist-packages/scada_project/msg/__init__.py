@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/scada_project/lib/python2.7/dist-packages/scada_project/msg/__init__.py

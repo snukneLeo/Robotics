@@ -1,5 +1,0 @@
-franka_description
-/home/leo/elaborato1/devel/.private/franka_description/cmake.lock /home/leo/elaborato1/devel/./cmake.lock
-/home/leo/elaborato1/devel/.private/franka_description/lib/pkgconfig/franka_description.pc /home/leo/elaborato1/devel/lib/pkgconfig/franka_description.pc
-/home/leo/elaborato1/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig.cmake /home/leo/elaborato1/devel/share/franka_description/cmake/franka_descriptionConfig.cmake
-/home/leo/elaborato1/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake /home/leo/elaborato1/devel/share/franka_description/cmake/franka_descriptionConfig-version.cmake

@@ -1,8 +1,0 @@
-prefix=/home/leo/elaborato1/devel/.private/elaboratoR1_B
-
-Name: elaboratoR1_B
-Description: Description of elaboratoR1_B
-Version: 0.0.0
-Cflags: -I/home/leo/elaborato1/devel/.private/elaboratoR1_B/include
-Libs: -L/home/leo/elaborato1/devel/.private/elaboratoR1_B/lib 
-Requires: 

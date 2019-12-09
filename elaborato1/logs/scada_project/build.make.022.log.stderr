@@ -1,0 +1,26 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:24:42:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+     ros::Subscriber sub = node.subscribe([01;35m[K'/joint_state_controller'[m[K, sensors_msgs::JointStates, &poseCallback);
+                                          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:11:25:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensors_msgs[m[K’ does not name a type
+ void poseCallback(const [01;31m[Ksensors_msgs[m[K::Jointstates &msg)
+                         [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:11:51:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ void poseCallback(const sensors_msgs::Jointstates [01;31m[K&[m[Kmsg)
+                                                   [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:11:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:11:52:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+ void poseCallback(const sensors_msgs::Jointstates &[01;31m[Kmsg[m[K)
+                                                    [01;31m[K^~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:19:6:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+     *[01;31m[Kposition[m[K = new double[500];
+      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:24:69:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensors_msgs[m[K’ has not been declared
+     ros::Subscriber sub = node.subscribe('/joint_state_controller', [01;31m[Ksensors_msgs[m[K::JointStates, &poseCallback);
+                                                                     [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:24:97:[m[K [01;31m[Kerror: [m[K‘[01m[KposeCallback[m[K’ was not declared in this scope
+     ros::Subscriber sub = node.subscribe('/joint_state_controller', sensors_msgs::JointStates, &[01;31m[KposeCallback[m[K);
+                                                                                                 [01;31m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

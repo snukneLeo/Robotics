@@ -1,0 +1,65 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+             node.serviceClient<[01;31m[Kturtlesim[m[K::Spawn>("spawn");
+                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:18:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+             node.[01;31m[KserviceClient<turtlesim::Spawn>[m[K("spawn");
+                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:57:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::serviceClient<<expression error> >(const char [6])[m[K’
+             node.serviceClient<turtlesim::Spawn>("spawn"[01;31m[K)[m[K;
+                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/leo/elaborato1/src/scada_project/main.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class MReq, class MRes> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)
+   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1240:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+             node.serviceClient<turtlesim::Spawn>("spawn"[01;31m[K)[m[K;
+                                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/leo/elaborato1/src/scada_project/main.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[Kcandidate: template<class Service> ros::ServiceClient ros::NodeHandle::serviceClient(const string&, bool, const M_string&)
+   ServiceClient [01;36m[KserviceClient[m[K(const std::string& service_name, bool persistent = false,
+                 [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:1260:17:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:57:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+             node.serviceClient<turtlesim::Spawn>("spawn"[01;31m[K)[m[K;
+                                                         [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ is not a class, namespace, or enumeration
+     [01;31m[Kturtlesim[m[K::Spawn srv;
+     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:19:21:[m[K [01;31m[Kerror: [m[K‘[01m[Ksrv[m[K’ was not declared in this scope
+     add_turtle.call([01;31m[Ksrv[m[K);
+                     [01;31m[K^~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:19:21:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kargv[m[K’
+     add_turtle.call([01;36m[Ksrv[m[K);
+                     [01;36m[K^~~[m[K
+                     [32m[Kargv[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:22:18:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+             node.[01;31m[Kadvertise<turtlesim::Velocity>[m[K("turtle2/command_velocity", 10);
+                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:22:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise<turtlesim>(const char [25], int)[m[K’
+             node.advertise<turtlesim::Velocity>("turtle2/command_velocity", 10[01;31m[K)[m[K;
+                                                                               [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/leo/elaborato1/src/scada_project/main.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size, bool latch = false)
+               [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:45:0[m[K,
+                 from [01m[K/home/leo/elaborato1/src/scada_project/main.cpp:1[m[K:
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher [01;36m[Kadvertise[m[K(const std::string& topic, uint32_t queue_size,
+             [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:38:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ is not a class, namespace, or enumeration
+         [01;31m[Kturtlesim[m[K::Velocity vel_msg;
+         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:39:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kvel_msg[m[K’ was not declared in this scope
+         [01;31m[Kvel_msg[m[K.angular = 4.0 * atan2(transform.getOrigin().y(),
+         [01;31m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

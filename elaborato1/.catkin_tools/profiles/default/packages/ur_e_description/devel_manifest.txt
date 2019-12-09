@@ -1,5 +1,0 @@
-universal_robot/ur_e_description
-/home/leo/elaborato1/devel/.private/ur_e_description/cmake.lock /home/leo/elaborato1/devel/./cmake.lock
-/home/leo/elaborato1/devel/.private/ur_e_description/lib/pkgconfig/ur_e_description.pc /home/leo/elaborato1/devel/lib/pkgconfig/ur_e_description.pc
-/home/leo/elaborato1/devel/.private/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig-version.cmake /home/leo/elaborato1/devel/share/ur_e_description/cmake/ur_e_descriptionConfig-version.cmake
-/home/leo/elaborato1/devel/.private/ur_e_description/share/ur_e_description/cmake/ur_e_descriptionConfig.cmake /home/leo/elaborato1/devel/share/ur_e_description/cmake/ur_e_descriptionConfig.cmake

@@ -1,0 +1,26 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:17:1:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateListener[m[K’ does not name a type
+ [01;31m[KJointStateListener[m[K::~JointStateListener()
+ [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:20:6:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateListener[m[K’ has not been declared
+ void [01;31m[KJointStateListener[m[K::callbackJointState(const JointStateConstPtr& state)
+      [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:20:51:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateConstPtr[m[K’ does not name a type
+ void JointStateListener::callbackJointState(const [01;31m[KJointStateConstPtr[m[K& state)
+                                                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kvoid callbackJointState(const int&)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:22:13:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    if (state[01;31m[K->[m[Kname.size() != state->position.size())
+             [01;31m[K^~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:22:35:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+    if (state->name.size() != state[01;31m[K->[m[Kposition.size())
+                                   [01;31m[K^~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:37:76:[m[K [01;31m[Kerror: [m[K‘[01m[KJointStateListener[m[K’ has not been declared
+     ros::Subscriber joint_state_sub_ = node.subscribe("/joint_states", 1, &[01;31m[KJointStateListener[m[K::poseCallback, this);
+                                                                            [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:37:110:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+     ros::Subscriber joint_state_sub_ = node.subscribe("/joint_states", 1, &JointStateListener::poseCallback, [01;31m[Kthis[m[K);
+                                                                                                              [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

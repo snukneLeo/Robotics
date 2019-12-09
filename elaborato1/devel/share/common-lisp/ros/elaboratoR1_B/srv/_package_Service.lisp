@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/elaboratoR1_B/share/common-lisp/ros/elaboratoR1_B/srv/_package_Service.lisp

@@ -1,0 +1,25 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const ConstPtr&)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:13:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst ConstPtr {aka const class boost::shared_ptr<const sensor_msgs::JointState_<std::allocator<void> > >}[m[K’ has no member named ‘[01m[Kposition[m[K’
+     position = msg.[01;31m[Kposition[m[K[3];
+                    [01;31m[K^~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:19:6:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+     *[01;31m[Kposition[m[K = new double[500];
+      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:28:39:[m[K [01;31m[Kerror: [m[K‘[01m[KSetJointStates[m[K’ was not declared in this scope
+             "/atlas/joint_states", 1, [01;31m[KSetJointStates[m[K,
+                                       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:28:39:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[KjointStatesSo[m[K’
+             "/atlas/joint_states", 1, [01;36m[KSetJointStates[m[K,
+                                       [01;36m[K^~~~~~~~~~~~~~[m[K
+                                       [32m[KjointStatesSo[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:29:37:[m[K [01;31m[Kerror: [m[K‘[01m[Krosnode[m[K’ was not declared in this scope
+                     ros::VoidPtr(), [01;31m[Krosnode[m[K->poseCallback());
+                                     [01;31m[K^~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:29:37:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Knode[m[K’
+                     ros::VoidPtr(), [01;36m[Krosnode[m[K->poseCallback());
+                                     [01;36m[K^~~~~~~[m[K
+                                     [32m[Knode[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

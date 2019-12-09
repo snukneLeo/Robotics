@@ -1,1 +1,0 @@
-/home/leo/elaborato1/devel/.private/ur_msgs/share/roseus/ros/ur_msgs/msg/IOStates.l

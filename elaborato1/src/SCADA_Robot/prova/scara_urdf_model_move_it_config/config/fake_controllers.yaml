@@ -1,7 +1,0 @@
-controller_list:
-  - name: fake_joints_controller
-    joints:
-      - joint_H_to_M1
-      - joint_Li_to_M2
-      - joint_M3_to_L4
-      - joint_L4_to_Rotate_endEffector

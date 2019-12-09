@@ -1,0 +1,13 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:24:42:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+     ros::Subscriber sub = node.subscribe([01;35m[K'/joint_state'[m[K, sensor_msgs::JointState::, &poseCallback);
+                                          [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:19:6:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+     *[01;31m[Kposition[m[K = new double[500];
+      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:24:83:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K,[m[K’ token
+     ros::Subscriber sub = node.subscribe('/joint_state', sensor_msgs::JointState::[01;31m[K,[m[K &poseCallback);
+                                                                                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2
