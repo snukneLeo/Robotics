@@ -1,0 +1,8 @@
+prefix=/home/leo/elaborato1/devel/.private/moveIt
+
+Name: moveIt
+Description: Description of moveIt
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/leo/elaborato1/devel/.private/moveIt/lib 
+Requires: 

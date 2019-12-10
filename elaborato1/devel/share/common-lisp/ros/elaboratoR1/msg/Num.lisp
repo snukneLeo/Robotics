@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/elaboratoR1/share/common-lisp/ros/elaboratoR1/msg/Num.lisp

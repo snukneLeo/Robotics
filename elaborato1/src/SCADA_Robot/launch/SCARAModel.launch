@@ -10,5 +10,6 @@
   <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
   <node name="robot_state_publisher" pkg="robot_state_publisher" type="state_publisher" />
   <node name="rviz" pkg="rviz" type="rviz" args="-d $(arg rvizconfig)" required="true" />
-
+  <node name="publisher" pkg="scada_project" type="publisher" output="screen" launch-prefix="x-terminal-emulator -e"/>
+  <node name="subscriber" pkg="scada_project" type="main" output="screen" launch-prefix="x-terminal-emulator -e"/>
 </launch>

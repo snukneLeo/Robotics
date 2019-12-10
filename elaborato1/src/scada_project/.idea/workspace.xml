@@ -27,7 +27,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../devel/setup.sh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
   </component>
   <component name="RunManager">
@@ -68,7 +68,9 @@
       <workItem from="1575886200723" duration="3259000" />
       <workItem from="1575891787775" duration="111000" />
       <workItem from="1575970458433" duration="131000" />
-      <workItem from="1575970758829" duration="745000" />
+      <workItem from="1575970758829" duration="2225000" />
+      <workItem from="1575983674041" duration="3440000" />
+      <workItem from="1575987128084" duration="11438000" />
     </task>
     <servers />
   </component>
@@ -80,11 +82,11 @@
       <screen x="42" y="25" width="1324" height="743" />
     </state>
     <state x="162" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.25.1324.743@42.25.1324.743" timestamp="1575970526531" />
-    <state x="480" y="139" width="424" height="512" key="FileChooserDialogImpl" timestamp="1575970359726">
-      <screen x="42" y="25" width="1324" height="743" />
+    <state x="485" y="139" width="424" height="512" key="FileChooserDialogImpl" timestamp="1575983153992">
+      <screen x="50" y="25" width="1316" height="743" />
     </state>
     <state x="480" y="139" key="FileChooserDialogImpl/42.25.1324.743@42.25.1324.743" timestamp="1575970359726" />
-    <state x="485" y="139" width="424" height="512" key="FileChooserDialogImpl/50.25.1316.743@50.25.1316.743" timestamp="1575891894533" />
+    <state x="485" y="139" width="424" height="512" key="FileChooserDialogImpl/50.25.1316.743@50.25.1316.743" timestamp="1575983153992" />
     <state x="193" y="31" key="SettingsEditor" timestamp="1575970584536">
       <screen x="42" y="25" width="1324" height="743" />
     </state>

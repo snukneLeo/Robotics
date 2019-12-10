@@ -1,0 +1,8 @@
+prefix=/home/leo/elaborato1/devel/.private/elaboratoR1
+
+Name: elaboratoR1
+Description: Description of elaboratoR1
+Version: 0.0.0
+Cflags: -I/home/leo/elaborato1/devel/.private/elaboratoR1/include
+Libs: -L/home/leo/elaborato1/devel/.private/elaboratoR1/lib 
+Requires: 

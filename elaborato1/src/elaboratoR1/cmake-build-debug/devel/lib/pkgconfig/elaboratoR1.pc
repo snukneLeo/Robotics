@@ -1,0 +1,8 @@
+prefix=/home/leo/elaborato1/src/elaboratoR1/cmake-build-debug/devel
+
+Name: elaboratoR1
+Description: Description of elaboratoR1
+Version: 0.0.0
+Cflags: -I/home/leo/elaborato1/src/elaboratoR1/cmake-build-debug/devel/include
+Libs: -L/home/leo/elaborato1/src/elaboratoR1/cmake-build-debug/devel/lib 
+Requires: 

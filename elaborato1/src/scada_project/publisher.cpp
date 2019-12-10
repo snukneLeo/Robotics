@@ -15,10 +15,11 @@ int main(int argc, char **argv) {
         tf::StampedTransform transform;
         try {
             ros::Time now = ros::Time::now();
-            listener.waitForTransform("/base_link", "/Rotate_endEffector", now, ros::Duration(0.5));
-            listener.lookupTransform("/base_link", "/Rotate_endEffector", ros::Time(0), transform);
+            listener.waitForTransform("/Rotate_endEffector", "/base_link", now, ros::Duration(0.5));
+            listener.lookupTransform("/Rotate_endEffector", "/base_link", ros::Time(0), transform);
         }
-        catch (tf::TransformException ex) {
+        catch (tf::TransformException ex)
+        {
             ROS_ERROR("%s", ex.what());
             ros::Duration(1.0).sleep();
         }

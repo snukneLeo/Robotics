@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/franka_description/share/franka_description/cmake/franka_descriptionConfig-version.cmake

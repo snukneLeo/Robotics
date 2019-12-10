@@ -1,0 +1,1 @@
+/home/leo/elaborato1/devel/.private/ur_kinematics/share/ur_kinematics/cmake/ur_kinematicsConfig-version.cmake

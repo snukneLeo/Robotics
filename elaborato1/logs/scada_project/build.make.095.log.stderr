@@ -1,0 +1,11 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kvoid poseCallback(const JointState&)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:74:22:[m[K [01;31m[Kerror: [m[K‘[01m[Karray_ik[m[K’ was not declared in this scope
+         std::cout << [01;31m[Karray_ik[m[K[i] << ", ";
+                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:74:22:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Karray_fk[m[K’
+         std::cout << [01;36m[Karray_ik[m[K[i] << ", ";
+                      [01;36m[K^~~~~~~~[m[K
+                      [32m[Karray_fk[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2
