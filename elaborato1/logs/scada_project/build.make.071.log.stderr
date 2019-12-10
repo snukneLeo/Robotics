@@ -1,0 +1,19 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kdouble* ik(double, double, double, double)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:42:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’ in assignment
+     values[0] = ikValues[5[01;31m[K][m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:43:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’ in assignment
+     values[1] = ikValues[2[01;31m[K][m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:44:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’ in assignment
+     values[2] = ikValues[6[01;31m[K][m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:45:27:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’ in assignment
+     values[3] = ikValues[7[01;31m[K][m[K;
+                           [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:46:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble**[m[K’ to ‘[01m[Kdouble*[m[K’ in return
+     return [01;31m[Kvalues[m[K;
+            [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

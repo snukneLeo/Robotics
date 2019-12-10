@@ -1,0 +1,7 @@
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:36:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf::Vector3[m[K’ to ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K’ in assignment
+         msg.angular.z = transform.getOrigin([01;31m[K)[m[K;
+                                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/publisher.dir/all] Error 2
+make: *** [all] Error 2

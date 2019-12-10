@@ -27,6 +27,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../devel/setup.sh" />
+    <property name="settings.editor.selected.configurable" value="preferences.startup.tasks" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Catkin Workspace conf" type="ShConfigurationType" activateToolWindowBeforeRun="false">
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/../../devel/setup.bash" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$/../" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -55,6 +67,8 @@
       <workItem from="1575884652600" duration="1517000" />
       <workItem from="1575886200723" duration="3259000" />
       <workItem from="1575891787775" duration="111000" />
+      <workItem from="1575970458433" duration="131000" />
+      <workItem from="1575970758829" duration="745000" />
     </task>
     <servers />
   </component>
@@ -62,9 +76,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="485" y="139" width="424" height="512" key="FileChooserDialogImpl" timestamp="1575891894533">
-      <screen x="50" y="25" width="1316" height="743" />
+    <state x="162" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575970526531">
+      <screen x="42" y="25" width="1324" height="743" />
     </state>
+    <state x="162" y="54" key="#com.intellij.execution.impl.EditConfigurationsDialog/42.25.1324.743@42.25.1324.743" timestamp="1575970526531" />
+    <state x="480" y="139" width="424" height="512" key="FileChooserDialogImpl" timestamp="1575970359726">
+      <screen x="42" y="25" width="1324" height="743" />
+    </state>
+    <state x="480" y="139" key="FileChooserDialogImpl/42.25.1324.743@42.25.1324.743" timestamp="1575970359726" />
     <state x="485" y="139" width="424" height="512" key="FileChooserDialogImpl/50.25.1316.743@50.25.1316.743" timestamp="1575891894533" />
+    <state x="193" y="31" key="SettingsEditor" timestamp="1575970584536">
+      <screen x="42" y="25" width="1324" height="743" />
+    </state>
+    <state x="193" y="31" key="SettingsEditor/42.25.1324.743@42.25.1324.743" timestamp="1575970584536" />
   </component>
 </project>

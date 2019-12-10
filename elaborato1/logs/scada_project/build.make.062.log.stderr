@@ -1,0 +1,9 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:28:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #compute
+ #[01;31m[Kcompute[m[K theta2
+  [01;31m[K^~~~~~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:27:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kdef[m[K’ does not name a type
+ [01;31m[Kdef[m[K ik(x,y,z,alfaZeta):
+ [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

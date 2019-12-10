@@ -11,9 +11,6 @@ find_package(catkin REQUIRED COMPONENTS
         tf
         )
 
-## Find catkin and any catkin packages
-#find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs genmsg)
-
 ## Declare ROS messages and services
 add_message_files(FILES Message.msg)
 add_service_files(FILES Service.srv)

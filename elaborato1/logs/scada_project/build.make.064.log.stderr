@@ -1,0 +1,7 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:27:26:[m[K [01;31m[Kerror: [m[Kexpression list treated as compound expression in initializer [[01;31m[K-fpermissive[m[K]
+ double *ik(x,y,z,alfaZeta[01;31m[K)[m[K
+                          [01;31m[K^[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:27:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kdouble[m[K’ to ‘[01m[Kdouble*[m[K’ in initialization
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

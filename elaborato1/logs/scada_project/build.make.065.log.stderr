@@ -1,0 +1,7 @@
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kdouble* ik(double, double, double, double)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:39:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KikValues[m[K’
+     [01;31m[KikValues[m[K[7] = ikValues[5] + ikValues[2] - alfaZeta //theta4
+     [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+make: *** [all] Error 2

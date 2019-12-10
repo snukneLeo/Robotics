@@ -1,0 +1,26 @@
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _scada_project_generate_messages_check_deps_Message
+[  0%] Built target _scada_project_generate_messages_check_deps_Service
+[35m[1mScanning dependencies of target publisher[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[ 17%] [32mBuilding CXX object CMakeFiles/publisher.dir/publisher.cpp.o[0m
+[ 17%] Built target main
+[ 29%] Built target scada_project_generate_messages_nodejs
+[ 41%] Built target scada_project_generate_messages_cpp
+[ 52%] Built target scada_project_generate_messages_lisp
+[ 70%] Built target scada_project_generate_messages_eus
+[ 94%] Built target scada_project_generate_messages_py
+[ 94%] Built target scada_project_generate_messages
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:36:45:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf::Vector3[m[K’ to ‘[01m[Kgeometry_msgs::Vector3_<std::allocator<void> >::_z_type {aka double}[m[K’ in assignment
+         msg.angular.z = transform.getOrigin([01;31m[K)[m[K;
+                                             [01;31m[K^[m[K
+CMakeFiles/publisher.dir/build.make:62: recipe for target 'CMakeFiles/publisher.dir/publisher.cpp.o' failed
+make[2]: *** [CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+CMakeFiles/Makefile2:1979: recipe for target 'CMakeFiles/publisher.dir/all' failed
+make[1]: *** [CMakeFiles/publisher.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

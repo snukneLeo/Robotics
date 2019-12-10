@@ -1,0 +1,11 @@
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:20:75:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ was not declared in this scope
+             listener.waitForTransform("/base_link", "/Rotate_endEffector",[01;31m[Know[m[K, ros::Duration(3.0));
+                                                                           [01;31m[K^~~[m[K
+[01m[K/home/leo/elaborato1/src/scada_project/publisher.cpp:20:75:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kpow[m[K’
+             listener.waitForTransform("/base_link", "/Rotate_endEffector",[01;36m[Know[m[K, ros::Duration(3.0));
+                                                                           [01;36m[K^~~[m[K
+                                                                           [32m[Kpow[m[K
+make[2]: *** [CMakeFiles/publisher.dir/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/publisher.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,8 @@
+prefix=/home/leo/elaborato1/src/scada_project/cmake-build-debug/devel
+
+Name: scada_project
+Description: Description of scada_project
+Version: 0.0.0
+Cflags: -I/home/leo/elaborato1/src/scada_project/cmake-build-debug/devel/include
+Libs: -L/home/leo/elaborato1/src/scada_project/cmake-build-debug/devel/lib 
+Requires: geometry_msgs roscpp rospy std_msgs tf2 tf2_ros tf

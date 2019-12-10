@@ -41,6 +41,6 @@ def mode():
    return None
 #print(workspace(-0.3,0.1,9))
 
-
 print(fk(0,0,0,0))
+print(ik(0,0.6,0,0))
 

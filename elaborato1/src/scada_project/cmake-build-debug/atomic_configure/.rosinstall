@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/leo/elaborato1/src/scada_project/cmake-build-debug/devel/setup.sh

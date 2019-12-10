@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: scada_project
+Description: Description of scada_project
+Version: 0.0.0
+Cflags: -I/usr/local/include
+Libs: -L/usr/local/lib 
+Requires: geometry_msgs roscpp rospy std_msgs tf2 tf2_ros tf
