@@ -1,9 +1,9 @@
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_cpp
-[  0%] Built target std_msgs_generate_messages_lisp
-[  0%] Built target _scada_project_generate_messages_check_deps_Message
-[  0%] Built target _scada_project_generate_messages_check_deps_Service
 [  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _scada_project_generate_messages_check_deps_Service
+[  0%] Built target _scada_project_generate_messages_check_deps_Message
 [35m[1mScanning dependencies of target main[0m
 [  0%] Built target std_msgs_generate_messages_eus
 [ 11%] Built target scada_project_generate_messages_cpp

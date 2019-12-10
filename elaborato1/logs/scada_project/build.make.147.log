@@ -1,0 +1,26 @@
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _scada_project_generate_messages_check_deps_Service
+[  0%] Built target _scada_project_generate_messages_check_deps_Message
+[35m[1mScanning dependencies of target main[0m
+[  5%] [32mBuilding CXX object CMakeFiles/main.dir/main.cpp.o[0m
+[  5%] Built target std_msgs_generate_messages_eus
+[ 17%] Built target publisher
+[ 29%] Built target scada_project_generate_messages_cpp
+[ 41%] Built target scada_project_generate_messages_nodejs
+[ 52%] Built target scada_project_generate_messages_lisp
+[ 76%] Built target scada_project_generate_messages_py
+[ 94%] Built target scada_project_generate_messages_eus
+[ 94%] Built target scada_project_generate_messages
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/leo/elaborato1/src/scada_project/main.cpp:178:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+             if(choice != 0 || choice != 1 || choice != 2)[01;31m[K)[m[K
+                                                          [01;31m[K^[m[K
+CMakeFiles/main.dir/build.make:62: recipe for target 'CMakeFiles/main.dir/main.cpp.o' failed
+make[2]: *** [CMakeFiles/main.dir/main.cpp.o] Error 1
+CMakeFiles/Makefile2:1232: recipe for target 'CMakeFiles/main.dir/all' failed
+make[1]: *** [CMakeFiles/main.dir/all] Error 2
+Makefile:140: recipe for target 'all' failed
+make: *** [all] Error 2

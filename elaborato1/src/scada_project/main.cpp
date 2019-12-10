@@ -61,6 +61,8 @@ void poseCallback(const sensor_msgs::JointState &msg)
     //std::cout << x << y << z << angle_EndEffector << std::endl;
 
 
+    std::cout << "Forward kinematics:" << std::endl;
+    std::cout << std::endl;
     /////////////////////////////////////////////////////////////////////
     fk(x,y,angle_EndEffector,z);
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
@@ -68,6 +70,7 @@ void poseCallback(const sensor_msgs::JointState &msg)
         std::cout << fkValue << ", ";
     std::cout << std::endl << std::flush;
     /////////////////////////////////////////////////////////////////////
+    std::cout << std::endl;
 }
 
 void ik(const geometry_msgs::Twist &msg)
@@ -79,13 +82,15 @@ void ik(const geometry_msgs::Twist &msg)
 
     //std::cout << px << py << pz << aZ << std::endl;
 
-
+    std::cout << "Inverse kinematics:" << std::endl;
     ik_cin(px,py,pz,aZ);
+    std::cout << std::endl;
 
     std::this_thread::sleep_for(std::chrono::milliseconds(500));
     for(long double value : values)
         std::cout << value << ", ";
     std::cout << std::endl << std::flush;
+    std::cout << std::endl;
 }
 
 bool workspace_control(double x, double y, double z)
@@ -164,72 +169,93 @@ int main(int argc, char** argv)
     //valori per fk
     double theta1 = 0, theta2 = 0, theta4 = 0, dz = 0, x = 0, y = 0, z = 0, angleZ = 0;
 
-    std::cout << "Automatic or manually: 1 or 2" << std::endl;
-    std::cin >> choice;
-
-    if (choice == 2)
+    while(choice != 0)
     {
-        std::cout << "fk or ik: 1 or 2" << std::endl;
-        std::cin >> operation;
-
-        if(operation == 1) //cinematic diretta
+        do
         {
-            do
-            {
-                std::cout << "insert theta1" << std::endl;
-                std::cin >> theta1;
-                std::cout << "insert theta2" << std::endl;
-                std::cin >> theta2;
-                std::cout << "insert theta4" << std::endl;
-                std::cin >> theta4;
-                std::cout << "insert d3" << std::endl;
-                std::cin >> dz;
-            }while(!(theta1 >= -2.5 && theta1 <= 2.5) || !(theta2 >= -2 && theta2 <= 2) || !(theta4 >= -3 && theta1 <= 3) || !(dz >= 0 && dz <= 0.45));
-
-            //call fk
-            std::cout << "fk:" << std::endl;
-            fk(theta1,theta2,theta4,dz);
-
-            for(long double fkValue : fkValues)
-                std::cout << fkValue << ", ";
-
+            std::cout << "Please insert your choice: " << std::endl;
+            std::cout << "1) Automatically" << std::endl;
+            std::cout << "2) Manually" << std::endl;
+            std::cout << "0) Exit" << std::endl;
+            std::cin >> choice;
             std::cout << std::endl;
-        }
-        else //cinemtica inversa
+
+            if(choice != 0 && choice != 1 && choice != 2)
+                std::cout << "Choice not correct! Please insert your correct choice again" << std::endl;
+        }while(choice != 0 && choice != 1 && choice != 2);
+
+        if (choice == 2)
         {
-            do
-            {
-                std::cout << "insert x" << std::endl;
-                std::cin >> x;
-                std::cout << "insert y" << std::endl;
-                std::cin >> y;
-                std::cout << "insert z" << std::endl;
-                std::cin >> z;
-                std::cout << "insert angle z" << std::endl;
-                std::cin >> angleZ;
-            }while(!(workspace_control(x,y,z)));
-
-            std::cout << "ik:" << std::endl;
-            //call ik
-            ik_cin(x,y,z,angleZ);
-
-            std::this_thread::sleep_for(std::chrono::milliseconds(500));
-            for (long double value : values)
-                std::cout << value << ", ";
-            std::cout << std::endl << std::flush;
-
+            std::cout << "Please insert your choice:" << std::endl;
+            std::cout << "1) Forward kinematics" << std::endl;
+            std::cout << "2) Inverse kinematics" << std::endl;
+            std::cin >> operation;
             std::cout << std::endl;
+
+            if(operation == 1) //cinematic diretta
+            {
+                do
+                {
+                    std::cout << "Please insert (theta1 theta2 theta4 d3): " << std::endl;
+                    std::cin >> theta1 >> theta2 >> theta4 >> d3;
+                    std::cout << std::endl;
+                    if (!(theta1 >= -2.5 && theta1 <= 2.5) || !(theta2 >= -2 && theta2 <= 2) || !(theta4 >= -3 && theta1 <= 3) || !(dz >= 0 && dz <= 0.45))
+                        std::cout << "angles or d3 not correct! Please insert again" << std::endl;
+                    std::cout << std::endl;
+
+                }while(!(theta1 >= -2.5 && theta1 <= 2.5) || !(theta2 >= -2 && theta2 <= 2) || !(theta4 >= -3 && theta1 <= 3) || !(dz >= 0 && dz <= 0.45));
+
+                //call fk
+                std::cout << "Forward kinematics:" << std::endl;
+                fk(theta1,theta2,theta4,dz);
+                std::cout << std::endl;
+
+                for(long double fkValue : fkValues)
+                    std::cout << fkValue << ", ";
+
+                std::cout << std::endl;
+                std::cout << std::endl;
+            }
+            else //cinemtica inversa
+            {
+                do
+                {
+                    std::cout << "Insert (x y z angleZ): " << std::endl;
+                    std::cin >> x >> y >> z >> angleZ;
+                    std::cout << std::endl;
+
+                    if(!(workspace_control(x,y,z)))
+                        std::cout << "x,y or z not in worspace! Please insert again" << std::endl;
+                    std::cout << std::endl;
+
+                }while(!(workspace_control(x,y,z)));
+
+                std::cout << "Inverse kinematics:" << std::endl;
+                std::cout << std::endl;
+                //call ik
+                ik_cin(x,y,z,angleZ);
+
+                std::this_thread::sleep_for(std::chrono::milliseconds(500));
+                for (long double value : values)
+                    std::cout << value << ", ";
+                std::cout << std::endl << std::flush;
+
+                std::cout << std::endl;
+                std::cout << std::endl;
+            }
         }
-    }
-    else
-    {
-        ros::init(argc, argv, "main");
-        ros::NodeHandle node;
+        else if (choice == 1)
+        {
+            ros::init(argc, argv, "main");
+            ros::NodeHandle node;
 
-        ros::Subscriber joint_state_sub_ = node.subscribe("/joint_states", 1, &poseCallback);
-        ros::Subscriber positionEndEffector = node.subscribe("/point", 1, &ik);
+            ros::Subscriber joint_state_sub_ = node.subscribe("/joint_states", 1, &poseCallback);
+            ros::Subscriber positionEndEffector = node.subscribe("/point", 1, &ik);
 
-        ros::spin();
+            ros::spin();
+        }
+        else
+            break;
     }
     return 0;
 }
