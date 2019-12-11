@@ -95,27 +95,40 @@ void ik(const geometry_msgs::Twist &msg)
 
 bool workspace_control(double x, double y, double z)
 {
-    double a1 = 0.3;
-    double a2 = 0.3;
-    double rad1 = 2.5;
-    double rad2 = 2;
-    double z_min = -0.45;
-    double z_max = 0;
+    double a1 = 0.3; //lunghezza primo braccio
+    double a2 = 0.3; //lunghezza secondo raggio
+    double rad1 = 2.5; //rotazione massima del primo raggio
+    double rad2 = 2; //rotazione massima del secondo raggio
+    double z_min = -0.45; //traslazione massima
+    double z_max = 0; //traslazione minima
+
+    //controllo che zeta sia nei limiti corretti
     if(z < z_min || z > z_max) {
         return false;
     }
 
+    //calcolo raggio del cerchio irraggiungibile interno
+    //(elevato al quadrato)
+    //raggio corto dato Carnot tra a1 e a2 con angolo interno
     double inner_radius_pow2 = pow(a1,2) + pow(a2,2) - 2 * a1 * a2 * cos(M_PI - rad2);
     double outer_radius = a1 + a2;
 
+    //calcolo raggio del cerchio irraggiungibile esterno
     if(pow(x, 2) + pow(y, 2) > pow(outer_radius, 2) || pow(x, 2) + pow(y, 2) < inner_radius_pow2){
         return false;
     }
+    //controllo che le coordinate siano interne ai due cerchi limite
     if(x > outer_radius * cos(rad1))
         return true;
 
+    //punto limite del braccio 1
+    //centro della circonferenza del braccio 2
     double cx = a1 * cos(rad1);
     double cy = a1 * sin(rad1);
+
+    //nel triangolo incerto controllo che sia accettabile o no
+    //dato il primo braccio esteso controllo il secondo braccio
+    //se ha raggio minore della circonferenza che viene creata
     if(pow(x-cx, 2) + pow(y-cy, 2) > pow(a2, 2) || pow(x-cx, 2) + pow(y+cy, 2) > pow(a2, 2))
         return false;
 
