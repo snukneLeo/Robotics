@@ -63,9 +63,9 @@
   <link name="Li">
     <visual>
       <geometry>
-        <box size="0.2 0.2 0.15"/>
+        <box size="0.2 0.2 0.3"/>
       </geometry>
-      <origin xyz="0.2 0.0 0.0"/>
+      <origin rpy= "0 1.57 0" xyz="0.15 0.0 0.0"/>
       <material name="lightgreen"/>
     </visual>
   </link>
@@ -86,7 +86,7 @@
   <joint name="joint_Li_to_M2" type="revolute">
     <parent link="Li"/>
     <child link="M2"/>
-    <origin xyz="0.4 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    <origin xyz="0.3 0.0 0.0" rpy="0.0 0.0 0.0"/>
     <limit effort="1000" velocity="1.0" lower="-2.0" upper="2.0"/>
     <axis xyz="0 0 1"/>
   </joint>
@@ -94,10 +94,10 @@
   <link name="L0" type="fixed">
     <visual>
       <geometry>
-        <box size="0.15 0.15 0.15"/>
+        <box size="0.2 0.2 0.3"/>
       </geometry>
       <material name="lightgreen"/>
-      <origin xyz="0.175 0.0 0.0"/>
+      <origin xyz="0.150 0.0 0.0" rpy="0 1.57 0"/>
     </visual>
   </link>
 
@@ -118,7 +118,7 @@
   <joint name="joint_L0_to_M3" type="fixed">
     <parent link="L0"/>
     <child link="M3"/>
-    <origin xyz="0.320 0.0 0.0"/>
+    <origin xyz="0.300 0.0 0.0"/>
   </joint>
 
   <link name="L4">

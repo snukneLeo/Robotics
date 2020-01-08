@@ -1,0 +1,68 @@
+####################
+LA TERNA BASE È POSTA SUL PRIMO GIUNTO E NON ALLA BASE, QUINDI IL CALCOLO DELLA ZETA DOVREBBE ESSERE SEMPRE SCALATO
+DI 0.4 (ALTEZZA DEL PRIMO LINK ALTO 0.4m)
+Nota: ZETA 
+
+
+1.a = [0.6 0 0 0]
+1.b = [0.300239, 0.3, -0, -0.157]
+1.c = [-0.303582, 0.113717, 0,-1.5]
+1.d = [-0.303582, -0.113717, 0,4.5]
+
+
+Nota: il suo 0 è il mio -0.4 rispetto alla terna base
+
+2.a = [1.5708, 0, -0.4, 1.5708]
+
+2.b = Non raggiungibile in quanto la zeta non è corretta e scende
+al di sotto della configurazione
+
+
+2.c = La zeta non risulta essere raggiungibile in quanto
+     la posizione della zeta non puo scendere al di sotto
+     della traslazione massima
+     
+
+2.d = La zeta non risulta essere raggiungibile in quanto
+     la posizione della zeta non puo scendere al di sotto
+     della traslazione massima.
+
+
+
+3.a = Vero. [0, 1.5708, -0.3, 1.5708]
+
+3.b = Abbiamo calcolato il workspace in maniera precisa 
+     attraverso equazioni matemtica e il punto 0.3 0.3 sarebbe
+     al di fuori del workspace in quanto le equazioni
+     matematica mi danno una approssimazione piu precisa.
+     Mentre nella funzione implementata in c++,l'uso di variabili
+     double portano ad avere la posizione ad essere interna al nostro workspace 
+     Anche se per il modello matematico dovrebbe risultare il calcolo non possibile
+
+3.c = Falso. 
+
+3.d = Non risulta essere all'interno del workspace in quanto
+la distanza dal centro supera la dimensione massima 
+del raggio massima
+
+3.e = sqrt( pow(0.4,2) + pow(0.3+0.3,2) )= 0.72
+
+3.f=theta1=qualunque;
+    theta2=0;
+    d3=0;
+    theta4=qualunque.
+
+3.g=Seguendo la regola di Carnot:
+  sqrt ( pow(a1,2) + pow(a2,2) - 2 * a1 * a2 * cos(M_PI - rad2) )=
+  =sqrt ( pow(0.3,2) + pow(0.3,2) - 2 * 0.3 * 0.3 * cos(M_PI - rad2) )=
+  =0.32
+  
+3.h=theta1=qualunque;
+   theta2=-2;
+   d3=0.4 al di sotto del giunto;
+   theta4=qualunque.
+   
+   theta1=qualunque;
+   theta2=2;
+   d3=0.4 al di sotto del giunto;
+   theta4=qualunque.

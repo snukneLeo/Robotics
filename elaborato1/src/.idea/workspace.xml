@@ -9,7 +9,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22fc65c7-b972-49e0-b18b-fe8aa9e5cd5f" name="Default Changelist" comment="" />
+    <list default="true" id="22fc65c7-b972-49e0-b18b-fe8aa9e5cd5f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/panda_moveit_config/config/kinematics.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/panda_moveit_config/config/kinematics.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panda_moveit_config/launch/planning_context.launch" beforeDir="false" afterPath="$PROJECT_DIR$/panda_moveit_config/launch/planning_context.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/panda_moveit_config/launch/planning_pipeline.launch.xml" beforeDir="false" afterPath="$PROJECT_DIR$/panda_moveit_config/launch/planning_pipeline.launch.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,8 +33,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,6 +50,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="22fc65c7-b972-49e0-b18b-fe8aa9e5cd5f" name="Default Changelist" comment="" />
@@ -53,6 +62,9 @@
       <updated>1571839069473</updated>
       <workItem from="1571839070979" duration="1520000" />
       <workItem from="1575880104341" duration="2514000" />
+      <workItem from="1578482469920" duration="51000" />
+      <workItem from="1578482566062" duration="2075000" />
+      <workItem from="1578484713683" duration="27000" />
     </task>
     <servers />
   </component>
@@ -68,6 +80,10 @@
       <screen x="50" y="25" width="1316" height="743" />
     </state>
     <state x="499" y="154" width="424" height="483" key="FileChooserDialogImpl/50.25.1316.743@50.25.1316.743" timestamp="1575882327805" />
+    <state x="197" y="31" key="SettingsEditor" timestamp="1578482519426">
+      <screen x="50" y="25" width="1316" height="743" />
+    </state>
+    <state x="197" y="31" key="SettingsEditor/50.25.1316.743@50.25.1316.743" timestamp="1578482519426" />
     <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1575882603464">
       <screen x="50" y="25" width="1316" height="743" />
     </state>

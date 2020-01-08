@@ -99,11 +99,11 @@ bool workspace_control(double x, double y, double z)
     double a2 = 0.3; //lunghezza secondo raggio
     double rad1 = 2.5; //rotazione massima del primo raggio
     double rad2 = 2; //rotazione massima del secondo raggio
-    double z_min = -0.45; //traslazione massima
+    double z_min = 0.45; //traslazione massima
     double z_max = 0; //traslazione minima
 
     //controllo che zeta sia nei limiti corretti
-    if(z < z_min || z > z_max) {
+    if(z > z_min || z < z_max) {
         return false;
     }
 
@@ -118,7 +118,7 @@ bool workspace_control(double x, double y, double z)
         return false;
     }
     //controllo che le coordinate siano interne ai due cerchi limite
-    if(x > outer_radius * cos(rad1))
+    if(x >= outer_radius * cos(rad1))
         return true;
 
     //punto limite del braccio 1
